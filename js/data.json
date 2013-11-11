@@ -1,0 +1,100 @@
+{
+    "results": [
+        {
+            "story": "Afrojack: It's fun hosting pop stars in Amsterdam",
+            "uuid": "4ce8420a-2eed-3b5d-9bc9-9669fedf2862",
+            "ctr": "2.34",
+            "clicks": "2000",
+            "trend": [
+                {
+                    "datetime": "20131110 03:00",
+                    "ctr": "3.58"
+                },
+                {
+                    "datetime": "20131110 03:01",
+                    "ctr": "3.00"
+                },
+                {
+                    "datetime": "20131110 03:02",
+                    "ctr": "3.00"
+                },
+                {
+                    "datetime": "20131110 03:03",
+                    "ctr": "2.33"
+                },
+                {
+                    "datetime": "20131110 03:04",
+                    "ctr": "2.34"
+                },
+                {
+                    "datetime": "20131110 03:05",
+                    "ctr": "2.34"
+                }
+            ]
+        },
+        {
+            "story": "Jessica Simpson Smiles, Shows Off Slim Post-Baby Body Again in Weight Watchers Shoot: Pretty Photo",
+            "uuid": "c715f527-6449-376e-a1c1-d85776a9dc85",
+            "ctr": "1.14",
+            "clicks": "1300",
+            "trend": [
+                {
+                    "datetime": "20131110 03:00",
+                    "ctr": "1.00"
+                },
+                {
+                    "datetime": "20131110 03:01",
+                    "ctr": "2.00"
+                },
+                {
+                    "datetime": "20131110 03:02",
+                    "ctr": "1.14"
+                },
+                {
+                    "datetime": "20131110 03:03",
+                    "ctr": "2.33"
+                },
+                {
+                    "datetime": "20131110 03:04",
+                    "ctr": "2.34"
+                },
+                {
+                    "datetime": "20131110 03:05",
+                    "ctr": "1.14"
+                }
+            ]
+        },
+        {
+            "story": "Jennifer Aniston Loves New Bob Haircut And Color, Says Colorist Outdid Himself",
+            "uuid": "37b4b819-1bfc-3cde-af9a-1cb6bb2d7ca2",
+            "ctr": "1.02",
+            "clicks": "1300",
+            "trend": [
+                {
+                    "datetime": "20131110 03:00",
+                    "ctr": "1.00"
+                },
+                {
+                    "datetime": "20131110 03:01",
+                    "ctr": "1.3"
+                },
+                {
+                    "datetime": "20131110 03:02",
+                    "ctr": "1.00"
+                },
+                {
+                    "datetime": "20131110 03:03",
+                    "ctr": "1.02"
+                },
+                {
+                    "datetime": "20131110 03:04",
+                    "ctr": "0.8"
+                },
+                {
+                    "datetime": "20131110 03:05",
+                    "ctr": "1.02"
+                }
+            ]
+        }
+    ]
+}

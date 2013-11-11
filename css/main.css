@@ -1,0 +1,143 @@
+/* modal related styles */
+
+.yyy-modal-wrapper {
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    top: 0;
+    left: 50%;
+    margin-left: -225px;
+    z-index: 20;
+    visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateX(-50%) translateY(-50%);
+}
+.yyy-modal {
+    position: fixed;
+    width: 450px;
+}
+ 
+.yyy-show {
+    visibility: visible;
+}
+ 
+.yyy-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    background: rgba(119,119,119,0.8);
+    transition: all 0.3s;
+}
+ 
+.yyy-show ~ .yyy-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Content styles */
+.yyy-content {
+    background: #fff;
+    position: relative;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.yyy-content h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 300;
+    opacity: 0.8;
+    background: #005581;
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+}
+
+.yyy-content > div {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.yyy-content > div p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.yyy-content .yyy-close {
+    position: absolute;
+    right: 0;
+    top: 14px;
+    background: transparent;
+    border: none;
+    padding: 0.6em 1.2em;
+    color: #fff;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Effect 3: Slide from the top */
+.yyy-effect-3 .yyy-content {
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.yyy-show .yyy-effect-3 > .yyy-content {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* content items */
+.yyy-stories {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
+.yyy-row {
+    display: table-row;
+    
+}
+.yyy-cell {
+    display: table-cell;
+    padding: 4px;
+    border-bottom: 1px dotted #aaa;
+    background: #ccc;
+}
+.yyy-title > h4 {
+    width: 350px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.yyy-trend {
+    text-align: center;
+}
+.yyy-trend-line {
+    width: 50px;
+    overflow: hidden;
+    opacity: 0;
+    display: inline-block;
+    transition: all 0.3s;
+}
+.yyy-same {
+    background: #ccc url('chrome-extension://__MSG_@@extension_id__/images/same.png') center 14px no-repeat;
+}
+.yyy-up {
+    background: #ccc url('chrome-extension://__MSG_@@extension_id__/images/up.png') center 14px no-repeat;
+}
+.yyy-down {
+    background: #ccc url('chrome-extension://__MSG_@@extension_id__/images/down.png') center 14px no-repeat;
+}

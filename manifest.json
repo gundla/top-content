@@ -1,0 +1,57 @@
+{
+  	"manifest_version": 2,
+  	"name": "Top Contents",
+  	"description": "Reporting on Stream on news.yahoo.com",
+  	"version": "1",
+
+  	"browser_action": {
+   	 	"default_icon": "/images/icon.png",
+    	"default_popup": "popup.html"
+  	},
+	"permissions": [
+		"tabs",
+		"chrome://favicon/*",
+		"management",
+		"debugger",
+		"history",
+		"cookies",
+		"http://*/*",
+		"https://*/*",
+        "background"
+	],
+    "background":
+        {
+        "scripts":["background.js"]
+        },
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	"content_scripts": [
+		{
+			"matches": [
+				"http://news.yahoo.com/"
+			],
+			"css": [
+                "css/animate.css",
+                "css/main.css"
+			],
+			"js": [
+				"js/vendor/jquery2.min.js",
+				"js/vendor/underscore.min.js",
+				"js/vendor/moment.min.js",
+				"js/vendor/raphael-min.js",
+                "js/vendor/jquery.sparkline.min.js",
+
+                "js/templates.js",
+				"js/main.js"
+
+			]
+
+		}
+	],
+	"web_accessible_resources": [
+            "images/stream.png",
+            "images/same.png",
+            "images/up.png",
+            "images/down.png",
+            "js/data.json"
+			]
+}
